@@ -17,7 +17,7 @@ public class IndexController {
 
         model.addAttribute("mensagem","Olá" + nome);
 
-        return "home.jsp";
+        return "WEB-INF/home.jsp";
 
     }    
     
